@@ -20,6 +20,7 @@ public class Main_surgery {
 		Undead und = new Undead(3);
 		switch(index) {
 		case 1: head.claimReward(ran.nextInt(10)); break;
+		
 		case 2: dog.claimReward(ran.nextInt(10));  break;
 		case 3: und.claimReward(ran.nextInt(10));  break;
 		default: System.out.println("Go home, beasties <:)");
